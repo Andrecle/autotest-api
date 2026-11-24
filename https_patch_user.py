@@ -2,7 +2,7 @@ import httpx
 
 from tools.fakers import get_random_email
 
-# Создаем пользователя
+# Создаем пользователя kek
 create_user_payload = {
     "email": get_random_email(),
     "password": "string",
