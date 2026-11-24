@@ -5,17 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f037d583-0ca0-4c89-b629-822b31011010" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/autotests-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course_service.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_course_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_course_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_service.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/environment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/api_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/authentication_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/courses/courses_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/errors_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/event_hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/files/files_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/public_http_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/users/users_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/allure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/courses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/https_patch_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_create_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_create_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_delete_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_get_user_me.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_schema_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_create_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_json_schema_create_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_json_schema_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/authentication/test_authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/courses/test_courses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/exercises/test_exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/files/test_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pytest/test_usefixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/users/test_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/epics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/stories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/courses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/fakers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/http/curl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/autotests-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/autotests-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +104,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/admin/PycharmProjects/autotests-api"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RobotComp.ru/PycharmProjects/autotest-api&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RobotComp.ru\PycharmProjects\autotest-api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RobotComp.ru\PycharmProjects\autotest-api\tests\pytest" />
+      <recent name="C:\Users\RobotComp.ru\PycharmProjects\autotest-api\tests\authentication" />
+      <recent name="C:\Users\RobotComp.ru\PycharmProjects\autotest-api\tests\users" />
+      <recent name="C:\Users\RobotComp.ru\PycharmProjects\autotest-api\clients\authentication" />
+      <recent name="C:\Users\RobotComp.ru\PycharmProjects\autotest-api\clients" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,5 +145,6 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.proto" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
 </project>
